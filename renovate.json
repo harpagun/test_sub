@@ -10,5 +10,7 @@
         "fileMatch": [
             "(^|/)\\.gitmodules$"
         ]
-    }
+    },
+	"branchPrefix": "dep/",
+	"commitMessageTopic": "{{replace '^[^:]+:' '' depName}}"
 }
